@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore Wardrobe</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <style>
+      body {
+        background-image: url("/static/WhatsApp Image 2024-06-14 at 10.58.21.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Explore Your Wardrobe</h1>
+      <form >
+        <input class="c1"
+          type="text"
+          placeholder="Enter Style (e.g., Casual, Formal)"
+          required size="35"
+        />
+        <br>
+        <br>
+        <input class="c1"
+          type="text"
+          placeholder="Enter Sleeve Length"
+          required size="35"/>
+          <br>
+          <br>
+        <button class="b1" >Proceed</button>
+    
+      </form>
+    </div>
+  </body>
+</html>

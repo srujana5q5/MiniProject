@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommendation Result</h1>
+        <div class="links">
+            <h2>Image:</h2>
+            <img src="{{ image_link }}" alt="Recommended Image">
+            <h2>Jewelry:</h2>
+            <img src="{{ jewelry_link }}" alt="Recommended Jewelry">
+            <h2> Footwear:</h2>
+            <img src="{{ footwear_link }}" alt="Recommended Footwear">
+        </div>
+        <button>Back to Home</button>
+    </div>
+</body>
+</html>
